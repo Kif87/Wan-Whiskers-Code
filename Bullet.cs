@@ -18,7 +18,7 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.GetComponent<EnemeyMovement>() && !collision.GetComponent<BossMovement>())
+        if (collision.GetComponent<EnemyMovement>() && !collision.GetComponent<BossMovement>())
         {
             Destroy(collision.gameObject);
             Destroy(gameObject);
