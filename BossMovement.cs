@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BossMovement : EnemeyMovement
+public class BossMovement : EnemyMovement
 {
     
 }
