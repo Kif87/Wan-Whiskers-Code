@@ -24,7 +24,7 @@ public class WhiskersAttack : MonoBehaviour
 
         foreach (Collider2D enemy in hitEnemies)
         {
-            if (enemy.GetComponent<EnemeyMovement>() != null && !enemy.GetComponent<BossMovement>())
+            if (enemy.GetComponent<EnemyMovement>() != null && !enemy.GetComponent<BossMovement>())
             {
                 Destroy(enemy.gameObject); 
             }
